@@ -41,7 +41,7 @@ I tested the project on macOS 12.3.1.
 
 ## Goal
 
-On online thrift stores, users can choose any price they want when listing an item which can cause the items to have higher than market prices and unsold items. On the other hand, if the listing price is lower than the market price, the Mercari customers lose money. As a solution, users can search the Mercari database for an item they plan to list. But not only is this a lot of effort but also this is tricky for new Mercari users. Therefore, listing becomes easy if we automatically display a suitable price for users when they list an item.
+On online thrift stores, users can choose any price they want when listing an item which can cause the items to have higher than market prices and unsold items. On the other hand, if the listing price is lower than the market price, the customers lose money. As a solution, users can search the database for an item they plan to list. But not only is this a lot of effort but also this is tricky for new users. Therefore, listing becomes easy if we automatically display a suitable price for users when they list an item.
 
 ## Data Analysis
 
