@@ -44,7 +44,7 @@ def prepare_data(row, test_data, label_binarizers, count_vectorizers):
 def main():
     label_bin = pickle.load(open("models/label_binarizers", "rb"))
     count_vec = pickle.load(open("models/count_vectorizers", "rb"))
-    test = pd.read_csv("data/mercari_test.csv.gz", compression="gzip")
+    test = pd.read_csv("data/test.csv.gz", compression="gzip")
     data = prepare_data(args.row, test, label_bin, count_vec)
 
     # Serialize the data into json and send the request to the model
